@@ -29,12 +29,7 @@ export default function TestimonialsSection() {
             {
               name: "Star Navigator",
               year: "Third Year",
-              quote:
-              <p>
-              From attendance to assignments, everything is just a click away. It's like having mission
-              control in my pocket!
-            </p>,
-            
+              quote: "From attendance to assignments, everything is just a click away. It&apso;s like having mission control in my pocket!",
               rating: 5,
             },
           ].map((testimonial, index) => (
