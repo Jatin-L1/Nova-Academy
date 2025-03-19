@@ -44,7 +44,7 @@ export default function TestimonialsSection() {
                     <Star key={i} className="w-5 h-5 fill-current" />
                   ))}
               </div>
-              <p className="flex-1 text-gray-400">"{testimonial.quote}"</p>
+              <p className="flex-1 text-gray-400">{testimonial.quote}</p>
               <div>
                 <div className="font-bold">{testimonial.name}</div>
                 <div className="text-sm text-gray-400">{testimonial.year}</div>
